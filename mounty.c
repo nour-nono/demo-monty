@@ -1,5 +1,12 @@
 #include "mounty.h"
 
+/**
+ * main - Entry point
+ * @ac: arguments count
+ * @av: list of arguments
+ * Return: Always 0
+ */
+
 free_items fr_itm;
 
 int main(int ac, char **av)
