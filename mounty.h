@@ -37,6 +37,15 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/**
+ * struct free_items - items to be freed
+ * @fd: file descriptor
+ * @buffer: buffer to read in
+ *
+ * Description: items that should be freed
+ * at the end of the program
+ */
+
 typedef struct free_items
 {
 	FILE *fd;
